@@ -24,6 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+
         android:id="@+id/editText2"
         android:layout_width="221dp"
         android:layout_height="wrap_content"
@@ -32,24 +33,27 @@
         android:background="#98dae7"
         android:ems="10"
         android:hint="подсказка "
-        android:inputType="text"
+        android:inputType="textMultiLine"
         android:singleLine="true"
         android:text="New word"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_width="221" />
+        tools:layout_width="221dp" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="221dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="5dp"
-        android:autoText="?android:attr/windowSwipeToDismiss"
+
         android:background="#98dae7"
         android:ems="10"
-        android:inputType="textCapSentences"
-        android:lines="@android:integer/config_mediumAnimTime"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
         android:text="Meaning"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
