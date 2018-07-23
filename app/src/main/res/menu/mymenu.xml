@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_page"
+        android:title="home">
+    </item>
+    <item
+        android:id="@+id/new_word"
+        android:title="new word">
+    </item>
+    <item
+        android:id="@+id/remembering"
+        android:orderInCategory="3"
+        android:title="remembering">
+    </item>
+
+</menu>
