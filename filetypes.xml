@@ -1,8 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="ids" type="PLAIN_TEXT" />
       <mapping pattern="DatabaseHelper" type="PLAIN_TEXT" />
+      <mapping pattern="button_view" type="XML" />
       <mapping pattern="button" type="XML" />
+      <mapping pattern="id" type="XML" />
       <mapping pattern="rounded_button" type="XML" />
     </extensionMap>
   </component>
